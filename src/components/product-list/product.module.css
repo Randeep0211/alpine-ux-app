@@ -1,0 +1,22 @@
+.cardContainer {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  height: auto;
+  padding: 50px 40px;
+  border: 1px solid rgb(214, 217, 219);
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0px 0px 15px -5px;
+}
+
+.image {
+  width: 180px;
+  height: auto;
+}
+
+.detail {
+  display: flex;
+  gap: 60px;
+}
