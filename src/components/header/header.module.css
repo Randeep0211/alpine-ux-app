@@ -4,31 +4,41 @@
   gap: 25px;
   padding: 17px 17px;
   font-weight: 100;
+  align-items: center;
 }
 
 .cartContainer {
   display: flex;
   padding: 17px 17px;
+  align-items: center;
 }
 
 .cart {
   margin-left: 40px;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .En {
   margin-left: 20px;
-  font-weight: 100;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
 }
 
 .title {
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 15px;
   font-style: inherit;
 }
 
 .headerContainer {
   display: flex;
-  gap: 470px;
+  gap: 460px;
   margin-left: 10px;
+}
+
+.back {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
 }

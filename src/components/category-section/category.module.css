@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 25px;
+  font-weight: 800;
+}
+
+.text {
+  color: gray;
+  border: 1px solid transparent;
+}

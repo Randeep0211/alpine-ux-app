@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './detail.module.css';
-import { MdArrowDropDown } from 'react-icons/md';
+import { MdArrowDropDown, MdArrowRight, MdArrowForward } from 'react-icons/md';
 
 interface ProductDetailprops {
   title: string;
@@ -10,12 +10,15 @@ const ProductDetails: React.FC<ProductDetailprops> = (props) => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        {props.title} <MdArrowDropDown />
+        <span>{props.title}</span> <MdArrowDropDown />
       </div>
       <div className={styles.number}>
-        <h3>01</h3>
-        <hr className={styles.hr}></hr>
-        <h3>04</h3>
+        <span>01</span>
+        <hr />
+        <span>02</span>
+        <div className={styles.arrowIcon}>
+          <MdArrowForward />
+        </div>
       </div>
     </div>
   );

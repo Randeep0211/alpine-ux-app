@@ -1,0 +1,8 @@
+.category {
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+}
+.icon {
+  /* display: none; */
+}

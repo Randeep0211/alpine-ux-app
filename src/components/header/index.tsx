@@ -3,9 +3,9 @@ import styles from './header.module.css';
 import { MdMenu, MdArrowLeft, MdArrowDropDown } from 'react-icons/md';
 
 interface HeaderProps {
-  Back: string;
-  Cart: string;
-  En: string;
+  back: string;
+  cart: string;
+  en: string;
   title: string;
 }
 
@@ -17,16 +17,20 @@ const Header: React.FC<HeaderProps> = (props) => {
           <MdMenu />
         </div>
 
-        <div>
+        <div className={styles.back}>
           <MdArrowLeft />
-          {props.Back}
+          <span>{props.back}</span>
         </div>
       </div>
-      <div className={styles.title}>{props.title}</div>
+      <div className={styles.title}>
+        <span>{props.title}</span>
+      </div>
       <div className={styles.cartContainer}>
-        <div className={styles.cart}>{props.Cart}</div>
+        <div className={styles.cart}>
+          <span>{props.cart}</span>
+        </div>
         <div className={styles.En}>
-          {props.En}
+          <span>{props.en}</span>
           <MdArrowDropDown />
         </div>
       </div>

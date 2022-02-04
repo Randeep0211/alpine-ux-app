@@ -1,0 +1,64 @@
+.sliderContainer {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 80px;
+  border: 2px solid rgb(77, 129, 150);
+  background-color: whitesmoke;
+  border-radius: 3px;
+  color: rgb(77, 129, 150);
+  margin-top: 50px;
+  margin-left: 190px;
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  text-align: justify;
+  text-justify: inter-word;
+  width: 250px;
+  margin: auto;
+  color: rgb(88, 88, 88);
+  line-height: 25px;
+}
+
+.title {
+  margin-left: 190px;
+}
+
+.image {
+  width: 550px;
+  height: 380px;
+  margin-bottom: 100px;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 150px;
+  padding-bottom: 70px;
+}
+
+.number {
+  display: flex;
+  font-weight: 600;
+  padding: 0px 251px;
+}
+
+.arrowIcon {
+  color: rgb(77, 129, 150);
+  width: 50px;
+}
+
+.hr {
+  width: 500px;
+}
+
+.one {
+  margin-left: 450px;
+}

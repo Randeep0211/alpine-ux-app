@@ -1,13 +1,11 @@
 import React from 'react';
-import ProductSliderSection from './product-slider-section';
-import Product from './products';
 import styles from './App.module.css';
+import Homepage from './pages/homepage';
 
 function App() {
   return (
     <div className={styles.App}>
-      <ProductSliderSection />
-      <Product />
+      <Homepage />
     </div>
   );
 }
